@@ -7,6 +7,93 @@ body {
     margin: 0;
     padding: 0;
 }
+.logo-text {
+    display: flex;
+    flex-direction: column;
+    justify-content:left;
+}
+
+.logo-text h1 {
+    margin: 0;
+    font-size: 22px;
+    font-weight: bold;
+    color: #080808;
+}
+
+.logo-text .tagline {
+    margin: 0;
+    font-size: 12px;
+    color: #2f2d2d;
+}
+
+
+
+
+
+
+/* Header Styling */
+header {
+    background: #ccced1; /* Deep Blue */
+    padding: 15px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+   
+}
+
+
+.logo-container {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+/* Logo Styling */
+/* Logo Styling */
+img {
+    width: 50px; /* Adjust size as needed */
+    height: 50px;
+    border-radius: 50%;
+    object-fit: contain; /* Ensures the whole image fits inside the circular frame */
+    padding: 2px; /* Adds some space inside the circular frame */
+    background-color: white; /* Optional: adds contrast if the logo has transparency */
+}
+
+
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+
+nav ul li {
+    margin-right: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #201d1d;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Footer Styling */
+footer {
+    background: #ccc7c8; /* Dark Gray */
+    color: #0a0a0a;
+    padding: 15px;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    margin-top: 50px;
+}
 
 /* Main Container */
 .container {

@@ -5,15 +5,34 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Smart Response Sheet Evaluator</title>
     <link rel="stylesheet" href="static/home_page_styles.css">
+    <link rel="icon" type="image/x-icon" href="static/favicon.ico">
 </head>
 <body>
+    <!-- Header Section -->
+    <header>
+        <div class="logo-container">
+            <img src="static/logo1.png" alt="Company Logo" class="logo">
+            <div class="logo-text">
+                <h1>SmartEval</h1>
+                <p class="tagline">No More Manual Checking<br> - Just SmartEval</p>
+            </div>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    
+    <!-- Main Content -->
     <div class="container">
         <h1>📄 Smart Response Sheet Evaluator</h1>
         <p class="tagline">Save time. Get instant results. Compare your answers easily.</p>
 
         <div class="description">
-            <p>Struggling to calculate your exam scores manually? This tool instantly evaluates your **JEE Mains** or **GATE** response sheet, showing your total marks, subject-wise breakdown, and graphs for better understanding.</p>
-            <p>No more manual matching of answers! Just **paste your response sheet URL** and get **instant** insights.</p>
+            <p>Struggling to calculate your exam scores manually? This tool instantly evaluates your <strong>JEE Mains</strong> or <strong>GATE</strong> response sheet, showing your total marks, subject-wise breakdown, and graphs for better understanding.</p>
+            <p>No more manual matching of answers! Just <strong>paste your response sheet URL</strong> and get <strong>instant</strong> insights.</p>
         </div>
 
         <div class="options">
@@ -21,5 +40,10 @@
             <a href="{{ url_for('gate') }}" class="option-btn gate">🎓 GATE</a>
         </div>
     </div>
+    
+    <!-- Footer Section -->
+    <footer>
+        <p>&copy; 2025 Smart Response Sheet Evaluator. All Rights Reserved.</p>
+    </footer>
 </body>
 </html>
