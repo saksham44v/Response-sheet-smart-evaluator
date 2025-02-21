@@ -62,7 +62,7 @@ def home():
 
 @app.route("/jee-mains")
 def jee_mains():
-    return "<h1>JEE Mains Page - Coming Soon!</h1>"
+    return render_template("jee_main_homepage.html")
 
 @app.route("/gate")
 def gate():
