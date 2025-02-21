@@ -67,6 +67,11 @@ def jee_mains():
 @app.route("/gate")
 def gate():
     return "<h1>GATE Page - Coming Soon!</h1>"
+    
+@app.route("/results")
+def result():
+    return render_template("jee_main_results.html")
+
 
 if __name__ == "__main__":
     app.run(host='0.0.0.0', port=5000, debug=True)

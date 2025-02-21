@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Results</title>
+    <link rel="stylesheet" href="static/jee_results_styles.css">
+    <script defer src="static/jee_results_script.js"></script>
+    <link rel="icon" type="image/x-icon" href="static/favicon.ico">
+</head>
+<body>
+    <div class="container">
+        <h1>Your Results</h1>
+
+        <div class="summary">
+            <div class="total-score">
+                <h2>Total Score</h2>
+                <p><span id="total-score"></span>/300</p>
+            </div>
+            <div class="percentile">
+                <h2>Expected Percentile</h2>
+                <p><span id="percentile"></span></p>
+            </div>
+        </div>
+
+        <h2>Your Progress</h2>
+        <div class="progress-section">
+            <div class="progress-card">
+                <p>Attempted</p>
+                <p><span id="attempted"></span>/75</p>
+                <div class="progress-bar"><div class="fill" id="attempted-bar"></div></div>
+            </div>
+            <div class="progress-card">
+                <p>Correct</p>
+                <p><span id="correct"></span>/75</p>
+                <div class="progress-bar"><div class="fill" id="correct-bar"></div></div>
+            </div>
+            <div class="progress-card">
+                <p>Incorrect</p>
+                <p><span id="incorrect"></span>/75</p>
+                <div class="progress-bar"><div class="fill" id="incorrect-bar"></div></div>
+            </div>
+            <div class="progress-card">
+                <p>Skipped</p>
+                <p><span id="skipped"></span>/75</p>
+                <div class="progress-bar"><div class="fill" id="skipped-bar"></div></div>
+            </div>
+            <div class="progress-card">
+                <p>Accuracy</p>
+                <p><span id="accuracy"></span>%</p>
+                <div class="progress-bar"><div class="fill" id="accuracy-bar"></div></div>
+            </div>
+        </div>
+
+        <h2>Subject-wise Progress</h2>
+        <div class="subject-progress">
+            <div class="subject-card">
+                <h3>Physics</h3>
+                <p>Score: <span id="physics-score"></span>/100</p>
+                <p>Attempted: <span id="physics-attempted"></span>/25</p>
+                <p>Correct: <span id="physics-correct"></span>/25</p>
+                <p>Incorrect: <span id="physics-incorrect"></span>/25</p>
+                <p>Accuracy: <span id="physics-accuracy"></span>%</p>
+            </div>
+            <div class="subject-card">
+                <h3>Chemistry</h3>
+                <p>Score: <span id="chemistry-score"></span>/100</p>
+                <p>Attempted: <span id="chemistry-attempted"></span>/25</p>
+                <p>Correct: <span id="chemistry-correct"></span>/25</p>
+                <p>Incorrect: <span id="chemistry-incorrect"></span>/25</p>
+                <p>Accuracy: <span id="chemistry-accuracy"></span>%</p>
+            </div>
+            <div class="subject-card">
+                <h3>Maths</h3>
+                <p>Score: <span id="maths-score"></span>/100</p>
+                <p>Attempted: <span id="maths-attempted"></span>/25</p>
+                <p>Correct: <span id="maths-correct"></span>/25</p>
+                <p>Incorrect: <span id="maths-incorrect"></span>/25</p>
+                <p>Accuracy: <span id="maths-accuracy"></span>%</p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
